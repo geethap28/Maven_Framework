@@ -34,6 +34,6 @@ public class Zonal_Test extends StaticVariables {
 		cf.ClickByLocator(zonLoc.ZONAL_BUTTON);
 		Thread.sleep(2000);
 		cf.TakeScreenShot("Zonal_Test");
-
+cf.OpenTheURL(prop.getProperty("Zonal_URL"));
 	}
 }
